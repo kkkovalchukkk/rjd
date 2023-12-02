@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'XO Caliburn';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../fonts/Xo/XO_Caliburn_Nu.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'XO Caliburn';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../fonts/Xo/XO_Caliburn_Ni.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'XO Caliburn';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("../fonts/Xo/XO_Caliburn_B.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'XO Caliburn';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url("../fonts/Xo/XO_Caliburn_BI.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Molot';
+    src: url("../fonts/Molot/Molot.ttf");
+}
