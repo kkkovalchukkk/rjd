@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css">
     <title>РЖД | ЛАСТОЧКА</title>
@@ -50,39 +53,39 @@
             </div>
         </div>
     </div>
-    <header class="header">
+    <header data-aos="fade-down" data-aos-once="true" class="header">
         <div class="wrapper">
             <a href="#" class="logo-link">
                 <img src="./img/logo.png" alt="РЖД" class="logo">
             </a>
             <nav class="nav">
-                <a href="#" class="nav-link">модели</a>
-                <a href="#" class="nav-link">характеристика</a>
-                <a href="#" class="nav-link">конструкция</a>
-                <a href="#" class="nav-link">эксплуатация</a>
-                <a href="#" class="nav-link">особенности вагонов</a>
+                <a href="#models" class="nav-link">модели</a>
+                <a href="#stat" class="nav-link">характеристика</a>
+                <a href="#const" class="nav-link">конструкция</a>
+                <a href="#exp" class="nav-link">эксплуатация</a>
+                <a href="#features" class="nav-link">особенности вагонов</a>
             </nav>
         </div>
     </header>
     <main class="main">
         <section class="promo">
             <div class="wrapper">
-                <h1 class="heading">
+                <h1 data-aos="fade-up" data-aos-once="true" class="heading">
                     «Ласточка»
                 </h1>
-                <p class="text promo-text">
+                <p data-aos="fade-up" data-aos-once="true" class="text promo-text">
                     Семейство пассажирских электропоездов с общим коммерческим названием
                     «Ласточка». Создано на основе платформы Siemens Desiro для ОАО «Российские
                     железные дороги»
                 </p>
             </div>
         </section>
-        <section class="models">
+        <section id="models" class="models">
             <div class="wrapper">
-                <h2 class="subheading">
+                <h2 data-aos="fade-up" data-aos-once="true" class="subheading">
                     Модели электропоезда «Ласточка»
                 </h2>
-                <div class="swiper models-swiper">
+                <div data-aos="fade-up" data-aos-once="true" class="swiper models-swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="models-card">
@@ -240,12 +243,12 @@
                 </div>
             </div>
         </section>
-        <section class="stat">
+        <section id="stat" class="stat">
             <div class="wrapper">
-                <h2 class="subheading">
+                <h2 data-aos="fade-up" data-aos-once="true" class="subheading">
                     Характеристики эклетропоезда
                 </h2>
-                <div class="stat-list">
+                <div data-aos="fade-up" data-aos-once="true" class="stat-list">
                     <div class="stat-item">
                         <img src="./icons/ic/icons8-скорость-100.png" alt="" class="stat-item-icon">
                         <p class="stat-item-text">
@@ -309,7 +312,7 @@
                 </div>
             </div>
         </section>
-        <section class="caretka">
+        <section id="const" class="caretka" data-aos="fade-right" data-aos-once="true">
             <div class="wrapper">
                 <h2 class="subheading subheading-white">
                     каретка токоприёмника
@@ -332,7 +335,7 @@
                 </ul>
             </div>
         </section>
-        <section class="grid">
+        <section data-aos="fade-left" data-aos-once="true" class="grid">
             <div class="wrapper">
                 <div class="grid-left">
                     <p class="grid-heading">
@@ -373,12 +376,12 @@
                 </div>
             </div>
         </section>
-        <section class="service">
+        <section id="exp" class="service">
             <div class="wrapper">
-                <p class="service-text">
+                <p data-aos="fade-up" data-aos-once="true" class="service-text">
                     «Ласточка» предлагает высокий уровень сервиса, включая:
                 </p>
-                <div class="service-row">
+                <div data-aos="fade-left" data-aos-once="true" class="service-row">
                     <div class="service-row-card">
                         <img src="./icons/icons8-ресторан-100.png" alt="" class="service-row-card-img">
                         <p class="service-row-card-text">
@@ -398,7 +401,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="service-block">
+                <div data-aos="fade-right" data-aos-once="true" class="service-block">
                     <img src="./icons/icons8-гарантия-100.png" alt="" class="service-block-img">
                     <p class="service-block-text">
                         Этот поезд обслуживается высококвалифицированным
@@ -408,12 +411,12 @@
                 </div>
             </div>
         </section>
-        <section class="offers">
+        <section id="features" class="offers">
             <div class="wrapper">
-                <h2 class="subheading">
+                <h2 data-aos="fade-up" data-aos-once="true" class="subheading">
                     Особенности вагонов и условия для пассажиров
                 </h2>
-                <ul class="offers-list">
+                <ul data-aos="fade-up" data-aos-once="true" class="offers-list">
                     <li class="offers-list-item">Салоны вагонов электропоезда имеют современный дизайн</li>
                     <li class="offers-list-item">
                         В вагонах достаточно места не только для кресел, но и багажа, имеющего
@@ -437,7 +440,7 @@
                 </ul>
             </div>
         </section>
-        <section class="gallery">
+        <section data-aos="fade-up" data-aos-once="true" class="gallery">
             <div class="gallery-list">
                 <img src="./img/gde-tualet-v-poezde-lastochka.jpg" alt="" class="gallery-img">
                 <img src="./img/11.jpg" alt="" class="gallery-img">
@@ -450,9 +453,7 @@
             </div>
         </section>
     </main>
-    <canvas id="viewer"></canvas>
-
-    <footer class="footer">
+    <footer data-aos="fade-up" data-aos-once="true" class="footer">
         <div class="wrapper">
             <div class="col">
                 <p class="footer-copyrights">
@@ -490,9 +491,13 @@
         </div>
     </footer>
     <script type="module" src="./countup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./counter.js"></script>
     <script>
+        AOS.init();
         const modelsSwiper = new Swiper('.models-swiper', {
             slidesPerView: 3,
             spaceBetween: 36,
